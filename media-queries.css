@@ -1,0 +1,107 @@
+@media (max-width: 1024px) {
+  .principal {
+    margin: 20px 40px;
+    padding: 20px;
+  }
+
+  .navegacao {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .foto-perfil {
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .descricao {
+    padding: 30px;
+  }
+
+  .botao {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navegacao {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  header {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .foto-perfil {
+    width: 150px;
+  }
+
+  .principal {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .descricao {
+    padding: 20px;
+    gap: 50px;
+  }
+
+  .botao {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .contato {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 30px;
+    font-size: 14px;
+  }
+
+  .btn-topo {
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    padding: 10px 14px;
+  }
+
+  .form-contato {
+    padding: 20px;
+    margin: 20px 10px 0;
+    }
+
+    .form-contato input,
+    .form-contato textarea {
+    font-size: 14px;
+    }
+
+    .form-contato button {
+    font-size: 14px;
+    padding: 10px;
+    }
+}
+
+    
